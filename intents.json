@@ -1,0 +1,86 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there, how can I help?",
+        "Greetings!"
+      ]
+    },
+    {
+      "tag": "mood",
+      "patterns": [
+        "How are you doing?",
+        "How are you?",
+        "What's up",
+        "How are things?"
+      ],
+      "responses": [
+        "I'm a bot, but I'm doing great! How about you?",
+        "I am doing well, thank you for asking.",
+        "Just working hard, thanks for checking in!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What is the weather like today?",
+        "Is it sunny?",
+        "Do you know the weather?",
+        "weather"
+      ],
+      "responses": [
+        "I am sorry, I do not have access to real-time weather data.",
+        "I can't check the weather, but I hope it's nice outside!",
+        "Weather reporting is outside my capabilities."
+      ]
+    },
+    {
+      "tag": "weekend_plans",
+      "patterns": [
+        "What are your plans for the weekend?",
+        "What are you doing this weekend?",
+        "Any plans for the weekend?"
+      ],
+      "responses": [
+        "I'll be busy running algorithms and processing data.",
+        "I'm looking forward to processing more information.",
+        "My plans involve optimizing my decision trees!"
+      ]
+    },
+    {
+      "tag": "summer_plans",
+      "patterns": [
+        "What are your plans for the summer?",
+        "What are you doing this summer?",
+        "Any summer plans?"
+      ],
+      "responses": [
+        "I don't get a summer break, I'll be here helping users like you!",
+        "I'll be working hard on improving my models and serving requests.",
+        "My summer is dedicated to machine learning."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you!",
+        "Have a great day!",
+        "Goodbye!"
+      ]
+    }
+  ]
+}
